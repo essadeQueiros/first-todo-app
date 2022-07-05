@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div id="modal">
+        <h3>Edit Task</h3>
+        <div class="edit">
+            <input id="modal_input" type="text">
+            <button id="save" onclick="save()">Save</button>
+        </div>
+    </div>
+    <div class="container">
+        <h3>TO DO LIST</h3>
+        <fieldset>
+            <legend>Tasks</legend>
+            <ul class="tasks">
+                <li>
+                    <input id="title" type="text" placeholder="Write your task here!">
+                    <button id="add">Add</button>
+                </li>
+            </ul>
+        </fieldset>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
